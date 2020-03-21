@@ -1,4 +1,7 @@
 # video_to_bvh
+# this version is a fork from Dene33
+# I changed some parts of code to make the project work on Colab of Python 2.7 and tf 1.15
+
 Convert human motion from video to .bvh with Google Colab
 
 <img alt="" src="https://i.imgur.com/QxML83b.gif" /><img alt="" src="https://i.imgur.com/vfge7DS.gif" />
@@ -15,7 +18,7 @@ Second step is to install all the required dependencies. Select the first code c
 ### 3. Upload video
 1. Select the code cell and push ```shift+enter```
 2. Push **```select files```** button
-3. Select the video you want to process (it should contain only one person, all body parts in frame, long videos will take a lot of time to process)
+3. Select the video you want to process (it should contain only one person, all body parts in frame, long videos will take a lot of time to process. IMPORTANT: Make sure your video's name contains numbers only.)
 ### 4. Process the video
 1. Specify desired ```fps``` rate at which you want to convert video to images. Lower fps = faster processing
 2. Select the code cell and push ```shift+enter``` 
